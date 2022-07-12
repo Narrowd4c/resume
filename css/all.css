@@ -148,15 +148,6 @@ body {
   padding-left: 23px;
 }
 
-.d-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .text-center {
   text-align: center;
 }
@@ -173,8 +164,25 @@ body {
   color: #FFFFFF;
 }
 
+.fs-2-5 {
+  font-size: 20px;
+}
+
+.fw-light {
+  font-weight: 300;
+}
+
 .font-SFProText {
   font-family: "SF Pro Text" serif;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .container {

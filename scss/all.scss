@@ -4,7 +4,9 @@ $primary-color:#415165;
 $secondary-color:#A00404;
 $white:#FFFFFF;
 $primary-light:#96A9C4;
-
+*{
+  //outline: solid;
+}
 img{
   vertical-align: top;
 }
@@ -36,6 +38,7 @@ body{
 .pb-1{
   padding-bottom: $space - 1;
 }
+
 .pb-3{
   padding-bottom: $space*3 - 2;
 }
@@ -44,10 +47,6 @@ body{
 }
 .ps-3{
   padding-left: $space*3 - 1;
-}
-.d-flex{
-  display: flex;
-  justify-content: center;
 }
 .text-center{
   text-align: center;
@@ -61,10 +60,20 @@ body{
 .text-white{
   color: $white;
 }
+
+.fs-2-5{
+  font-size: $space*2.5;
+}
+.fw-light{
+  font-weight: 300;
+}
 .font-SFProText{
   font-family: "SF Pro Text" serif;
 }
-
+.d-flex{
+  display: flex;
+  justify-content: center;
+}
 //
 .container{
   max-width: 1200px;
