@@ -195,7 +195,9 @@ body {
 }
 
 .name {
-  font: normal normal normal 80px/95px "SF Pro Text";
+  font-size: 80px;
+  font-family: "SF Pro Text" sans-serif;
+  line-height: 95px;
   border-bottom: 2px solid black;
 }
 
